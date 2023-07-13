@@ -630,11 +630,12 @@ pre {
   <header class="post-header">
     <h1 class="post-title">
       
-      <script type="text/javascript">
-        function showName(name) {
+      <script type="text/javascript" defer>
+
+          let result = Android.getUserData()
           let header = document.querySelector("h1");
-          header.innerText = "Hello, dear " + name + "!";
-        }
+          header.innerText = "Hello, dear " + result + "!";
+        
       </script>
       
     </h1>
