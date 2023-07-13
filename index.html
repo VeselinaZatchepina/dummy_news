@@ -629,13 +629,20 @@ pre {
 <article class="post post-view has-icon">
   <header class="post-header">
     <h1 class="post-title">
-        Hello, dear friend!
+      
+      <script type="text/javascript">
+        function showName(name) {
+          let header = document.querySelector("h1");
+          header.innerText = "Hello, dear " + name + "!";
+        }
+      </script>
+      
     </h1>
     <p class="post-meta">UnsecureNotes · 2023.07.18</p>
   </header>
   <div class="post-content">
 
-<p>We have nothiing to tell...</p>
+<p>We have nothing to tell...</p>
 
 <h4 id="personal-information-we-collect">NEWS</h4>
 
