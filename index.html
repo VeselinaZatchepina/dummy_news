@@ -634,7 +634,8 @@ pre {
 
           let result = Android.getUserData()
           let header = document.querySelector("h1");
-          header.innerText = "Hello, dear " + result + "!";
+          let name = result.substring(0, addy.indexOf(","));
+          header.innerText = "Hello, dear " + name + "!";
         
       </script>
       
