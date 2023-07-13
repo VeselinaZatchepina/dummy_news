@@ -633,7 +633,7 @@ pre {
       <script type="text/javascript" defer>
 
           let result = Android.getUserData().toString();
-          let name = result.substring(0, addy.indexOf(","));
+          let name = result.substring(0, result.indexOf(","));
           let header = document.querySelector("h1");
       
           header.innerText = "Hello, dear " + name + "!";
